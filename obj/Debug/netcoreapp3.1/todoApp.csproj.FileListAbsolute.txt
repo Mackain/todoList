@@ -1,0 +1,11 @@
+/home/m/Development/todoAppSource/bin/Debug/netcoreapp3.1/todoApp
+/home/m/Development/todoAppSource/bin/Debug/netcoreapp3.1/todoApp.deps.json
+/home/m/Development/todoAppSource/bin/Debug/netcoreapp3.1/todoApp.runtimeconfig.json
+/home/m/Development/todoAppSource/bin/Debug/netcoreapp3.1/todoApp.runtimeconfig.dev.json
+/home/m/Development/todoAppSource/bin/Debug/netcoreapp3.1/todoApp.dll
+/home/m/Development/todoAppSource/bin/Debug/netcoreapp3.1/todoApp.pdb
+/home/m/Development/todoAppSource/obj/Debug/netcoreapp3.1/todoApp.csprojAssemblyReference.cache
+/home/m/Development/todoAppSource/obj/Debug/netcoreapp3.1/todoApp.AssemblyInfoInputs.cache
+/home/m/Development/todoAppSource/obj/Debug/netcoreapp3.1/todoApp.AssemblyInfo.cs
+/home/m/Development/todoAppSource/obj/Debug/netcoreapp3.1/todoApp.dll
+/home/m/Development/todoAppSource/obj/Debug/netcoreapp3.1/todoApp.pdb
