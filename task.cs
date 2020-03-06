@@ -8,18 +8,17 @@ namespace todoApp
         public string title {get; set;}
         public DateTime startTime {get; set;}
         public DateTime endTime {get; set;}
+
+        public DateTime created {get; set;}
         public bool done {get; set;}
 
         public bool isRecurring {get; set;}
-        public task (string title, bool isRecurring = false)
+        public task (string title, DateTime created, bool isRecurring = false)
         {
             this.isRecurring = isRecurring;
             this.title = title;
             this.done = false;
-        }
-
-        public void start()
-        {
+            this.created = created;
             this.startTime = DateTime.Now;
         }
 
@@ -52,6 +51,15 @@ namespace todoApp
                         sw.WriteLine(line);
                     }
                 }
+            }
+        }
+
+        public void SaveToDisk()
+        {
+            // Save to disk
+            using (StreamWriter sw = File.AppendText("save.txt")) 
+            {
+                sw.WriteLine("%"+startTime.Date.ToShortDateString()+"%" + this.title);
             }
         }
     }
